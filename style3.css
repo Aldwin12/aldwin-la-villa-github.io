@@ -1,0 +1,283 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #b4cfec;
+	text-decoration: none;
+}
+header{
+	height: 10vh;
+	background-size: cover;
+	background-position: center;
+	color: black;
+	background: #98afc7;
+	margin-bottom: 20px;
+	width: 215vh;
+	
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+	position; fixed;
+
+}
+
+ul li{
+	display: inline-block;
+
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	
+	transition: 0.4s ease;
+}
+ul li.active a{
+	background-color: #6d7b8d;
+	color: white;
+	
+}
+
+ul li a:hover{
+	background-color: #6d7b8d;
+	color: white;
+	
+}
+
+.logopare img{
+	
+	width: 100px;
+	height: auto;
+	position: absolute;
+	
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.about{
+	background: black;
+	height: 20vh;
+
+}
+
+.Div1 {
+	height: 120vh;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(	1,1fr);
+	margin: 0;
+	margin-left: 60px;
+	margin-bottom: 20px;
+}
+
+.Div1 div {
+	background: #657383;
+	
+}
+
+
+.Div2 {
+	height: 15vh;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(	5,1fr);
+	margin: 0;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+.Div2 div {
+	background: #657383;
+	
+}
+
+.Div2 button{
+	height: 10vh;
+	width: 45vh;
+	margin-left: 12px;
+    font-size: 50px;
+	font-family: 'Mr Dafoe', cursive;
+	display: inline-block;
+}
+
+.inside1{
+	border: 2px white  solid;
+	height:50vh;
+	background: white;
+	display:;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-left: 30px;	
+	margin-top: 30px;
+	margin-right: 30px;
+}
+.box1{
+	grid-template-columns: repeat(,1fr);
+	grid-template-rows: repeat(4,1fr);
+	height: 120vh;
+	display: grid;
+	background: white;
+}
+
+.inside2{
+	border: 2px white  solid;
+	height:50vh;
+	background: white;
+	display:;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-left: 30px;	
+	margin-top: 30px;
+	margin-right: 30px;
+}
+.inside3{
+	border: 2px white  solid;
+	height:50vh;
+	background: white;
+	display:;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-left: 30px;	
+	margin-top: 30px;
+	margin-right: 30px;
+}
+.inside4{
+	border: 2px white  solid;
+	height:50vh;
+	background: white;
+	display:;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-left: 30px;	
+	margin-top: 30px;
+	margin-right: 30px;
+}		
+
+ a {
+	text-decoration: none;
+}
+
+.image1 img{
+	height: 50vh;
+	width: 40vh;
+}
+.Div5 {
+	height: 50vh;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(1,1fr);
+	border: 8px white solid;
+	margin-left: 60px;
+	background: white;
+}
+
+.Div5 div {
+	background: #657383;
+}
+
+.title{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(apartment3.jpg);
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	color: black;
+	margin-bottom: 10px;
+	border: 5px white solid;
+	margin-left: 60px;
+	font-family: 'Mr Dafoe', cursive;
+}
+
+.title h3{
+	color: #fff;
+	font-size: 130px;
+}
+
+.title h3{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.Div1 h1{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+ p{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+
+.Div1 h2{
+	color: white;
+	text-align: center;
+	font-size: 35px;
+}
+
+a{
+	color: white;
+}
+
+p{
+	
+	text-align: center;
+
+		color: #fff;
+	font-size: 13px;
+}
+
+.box h1{
+	font-size: 20px;
+	color: white;
+	font-family: 'Mr Dafoe', cursive;
+}
+
+.box1 h1 {
+	font-family: 'Mr Dafoe', cursive;
+}
+
+.box p{
+	font-size: 28px;
+}
+button{
+	font-family: 'Mr Dafoe', cursive;
+	
+}
+
+.box1 h1{
+		font-family: 'Mr Dafoe', cursive;
+}
+
+.box p{
+	font-size: 28px;
+	position: center;
+}
+
+.box h1{
+	font-size: 35px;
+	position: center;
+}
+
+
+
+.box69 img{
+		width: 320px;
+	height: auto;
+	position: center;
+}
+
